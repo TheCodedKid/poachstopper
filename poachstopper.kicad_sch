@@ -2116,6 +2116,16 @@
 		)
 		(uuid "65ee030f-e205-491f-8c49-6549ba43d1d3")
 	)
+	(text "todo: \n24v to 5v converter\ndriver for the relay"
+		(exclude_from_sim no)
+		(at 71.374 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86a72c0a-1a25-4251-8731-d41427817ed4")
+	)
 	(junction
 		(at 203.2 68.58)
 		(diameter 0)
@@ -2133,6 +2143,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af19ce24-eabf-4795-99be-4212c034a7d9")
+	)
+	(junction
+		(at 189.23 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8a66d0a-f4cc-408a-8221-e7a8f4307589")
+	)
+	(junction
+		(at 189.23 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb3aaf71-27e5-49ba-ac9a-c32068b80a33")
 	)
 	(junction
 		(at 203.2 110.49)
@@ -2160,13 +2182,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 189.23 68.58)
+			(xy 166.37 64.77) (xy 189.23 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a90109e-af78-4bd8-8305-22b78d5f7e44")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 189.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f3e55a-25cd-4895-ad63-a695014d5c2d")
 	)
 	(wire
 		(pts
@@ -2240,6 +2272,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 69.85) (xy 189.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43565061-535c-49c7-862b-7f2f5083274d")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49db1d02-55f8-4af8-bab4-7ca72aad7442")
+	)
+	(wire
+		(pts
 			(xy 129.54 83.82) (xy 129.54 91.44)
 		)
 		(stroke
@@ -2280,6 +2332,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 90.17) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a57c8a8-a34c-484b-b2e2-cf0f2b429b7c")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c21223a-210e-46d1-b95a-987639ff01f6")
+	)
+	(wire
+		(pts
 			(xy 104.14 91.44) (xy 99.06 91.44)
 		)
 		(stroke
@@ -2287,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "606681e8-d914-4bda-ace1-c5e3281e80dd")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0e9c0b-a53b-48f2-9920-41d75133c182")
 	)
 	(wire
 		(pts
@@ -2400,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 68.58)
+			(xy 189.23 72.39) (xy 189.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2460,6 +2542,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 77.47) (xy 181.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27d02cd-b611-4875-8d34-e59dd3a8d36b")
+	)
+	(wire
+		(pts
 			(xy 203.2 63.5) (xy 203.2 68.58)
 		)
 		(stroke
@@ -2469,7 +2561,7 @@
 		(uuid "fb9a9308-4358-4851-9a7e-7b35e733ad7f")
 	)
 	(label "LATCH_CONTROL"
-		(at 167.64 68.58 0)
+		(at 166.37 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3266,7 +3358,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_AKL:1N4007")
-		(at 173.99 81.28 270)
+		(at 181.61 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3274,10 +3366,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98747a67-1b9f-44fe-82b7-28f80ab4de74")
 		(property "Reference" "D1"
-			(at 176.53 80.0099 90)
+			(at 174.498 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,7 +3379,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 176.53 82.5499 90)
+			(at 179.324 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3299,7 +3390,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 173.99 81.28 0)
+			(at 181.61 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3401,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/5f8ffc5ac30fc86bac97d66040bf5502/1n400x.pdf"
-			(at 173.99 81.28 0)
+			(at 181.61 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3412,7 @@
 			)
 		)
 		(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
-			(at 173.99 81.28 0)
+			(at 181.61 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
