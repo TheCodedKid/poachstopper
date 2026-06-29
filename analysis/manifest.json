@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "project": "poachstopper.kicad_pro",
+  "current": "2026-06-28_1946",
+  "runs": {
+    "2026-06-28_1652": {
+      "source_hashes": {
+        "poachstopper.kicad_sch": "sha256:801f7719789924543e6922beca40e3d29962844a8775a382b0812554604725a7"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py poachstopper.kicad_sch"
+      },
+      "generated": "2026-06-28T16:52:51-07:00",
+      "pinned": false
+    },
+    "2026-06-28_1842": {
+      "source_hashes": {
+        "poachstopper.kicad_sch": "sha256:d5b492cadbcdc8b9c840e49e681630787b6252ba36fd19e1dcf8490871012e70"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py poachstopper.kicad_sch"
+      },
+      "generated": "2026-06-28T18:42:18-07:00",
+      "pinned": false
+    },
+    "2026-06-28_1934": {
+      "source_hashes": {
+        "poachstopper.kicad_sch": "sha256:988fb0d6145101591463ddd1070670b258e55981cfdd47744b346b06dfe9dd83"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py poachstopper.kicad_sch"
+      },
+      "generated": "2026-06-28T19:34:21-07:00",
+      "pinned": false
+    },
+    "2026-06-28_1941": {
+      "source_hashes": {
+        "poachstopper.kicad_sch": "sha256:748587cf7e15a6b689a6b9bc3869b10a0b0865cd8dcceabb6531274e259602ea"
+      },
+      "outputs": {
+        "schematic": "schematic.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py poachstopper.kicad_sch"
+      },
+      "generated": "2026-06-28T19:41:49-07:00",
+      "pinned": false
+    },
+    "2026-06-28_1946": {
+      "source_hashes": {
+        "poachstopper.kicad_sch": "sha256:efe6bdeb539f815b168b21021822a466dc02620f3cf6ca3e6ab4f57b23debcc0",
+        "poachstopper.kicad_pcb": "sha256:3b5b688324c25a0db35299050c5ee0c79e911a44159afc86e2ee8382057d1634"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py poachstopper.kicad_sch"
+      },
+      "generated": "2026-06-28T19:58:37-07:00",
+      "pinned": false
+    }
+  }
+}

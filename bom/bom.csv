@@ -1,0 +1,16 @@
+Reference,Qty,Value,Footprint,MPN,Manufacturer,LCSC,LC_Stock,Chosen_Distributor,Datasheet,Validated,DNP,Notes
+C1,1,220nF,1206,,,C107186,,,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf,,,
+D2,1,60V/1A,Diode_Schottky_0603,,,C3759853,,,https://www.digikey.com/en/products/detail/bourns-inc/CD0603-B0340R/7796828,,,
+D3,1,1N4007,SMA_L4.3-W2.5-LS5.0-RD,1N4007,TWGMC(迪嘉),C727081,,,https://lcsc.com/product-detail/Diodes-General-Purpose_TWGMC-1N4007_C727081.html,,,SMD swap (SMA/DO-214AC) - change footprint from DO-41 before fab
+F1,1,Blade Fuse,Fuseholder_Automotive,,,,,,https://www.keyelco.com/userAssets/file/M65p41.pdf,,yes,"Hand-solder, exclude from JLCPCB pick-and-place (DNP)"
+"J1,J2",2,XT60PW-M,CONN_XT60PW-M_AMA,,,,,,XT60PW-M,,yes,"XT60 - order + solder separately, exclude from JLCPCB PnP (DNP)"
+L1,1,22uH,0805,,,C6364733,,,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1221/MBKK2012T1R0M_SS.pdf,,,
+R1,1,1M,1206,,,C17927,,,,,,
+R2,1,10,1206,,,C17903,,,,,,
+R3,1,10,RES-SMD_L13.5-W7.3,SMW510RJT,TE Connectivity(泰科电子),C2094091,,,https://www.lcsc.com/datasheet/C2094091.pdf,,,10R 5W SMD - change footprint from 3550 to RES-SMD_L13.5-W7.3 before fab
+R7,1,56.2k,1206,,,C2999490,,,,,,
+R8,1,10k,1206,,,C17902,,,,,,
+R9,1,100k,1206,,,C17900,,,,,,
+RLA1,1,G2RL-1A-E DC5,RELAY_G2RL-1A-E_DC5_OMR,,,,,,G2RL-1A-E DC5,,yes,"Relay - order + solder separately, exclude from JLCPCB PnP (DNP)"
+U2,1,NE555DR-MS,SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL,NE555DR-MS,MSKSEMI(美森科),C7434189,,,https://www.lcsc.com/datasheet/C7434189.pdf,,,
+U3,1,LMR16006XDDCT,SOT95P280X110-6N,,,C87080,,,,,,
