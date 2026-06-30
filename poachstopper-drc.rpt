@@ -1,0 +1,79 @@
+** Drc report for poachstopper.kicad_pcb **
+** Created on 2026-06-29T16:14:59 **
+** Report includes: Errors, Warnings **
+
+** Found 16 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(131.0000 mm, 67.0000 mm): Rectangle on Edge.Cuts
+    @(170.5230 mm, 103.7740 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(131.0000 mm, 67.0000 mm): Rectangle on Edge.Cuts
+    @(186.0170 mm, 88.0260 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(131.0000 mm, 67.0000 mm): Rectangle on Edge.Cuts
+    @(170.5230 mm, 86.9740 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(131.0000 mm, 67.0000 mm): Rectangle on Edge.Cuts
+    @(186.0170 mm, 71.2260 mm): Segment of J2 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'Fuseholder_Automotive' does not match copy in library 'PCM_SparkFun-Fuse'
+    Local override; warning
+    @(152.0000 mm, 85.3500 mm): Footprint F1
+[lib_footprint_mismatch]: Footprint 'SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL' does not match copy in library 'kicad-import'
+    Local override; warning
+    @(139.9300 mm, 99.6000 mm): Footprint U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.5000 mm, 94.0000 mm): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.4100 mm, 102.1300 mm): Segment of U2 on F.Silkscreen
+    @(137.3600 mm, 98.9700 mm): Pad 6 [Net-(U2-THRES)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.4100 mm, 102.1300 mm): Segment of U2 on F.Silkscreen
+    @(137.3600 mm, 100.2300 mm): Pad 7 [unconnected-(U2-DISCH-Pad7)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.4100 mm, 102.1300 mm): Segment of U2 on F.Silkscreen
+    @(137.3600 mm, 101.5000 mm): Pad 8 [5V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.4100 mm, 102.1300 mm): Segment of U2 on F.Silkscreen
+    @(137.3600 mm, 97.7000 mm): Pad 5 [unconnected-(U2-CONT-Pad5)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.4500 mm, 97.0700 mm): Segment of U2 on F.Silkscreen
+    @(142.5000 mm, 97.7000 mm): Pad 4 [5V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.4500 mm, 97.0700 mm): Segment of U2 on F.Silkscreen
+    @(142.5000 mm, 101.5000 mm): Pad 1 [GND] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.4500 mm, 97.0700 mm): Segment of U2 on F.Silkscreen
+    @(142.5000 mm, 100.2300 mm): Pad 2 [Net-(U2-THRES)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.4500 mm, 97.0700 mm): Segment of U2 on F.Silkscreen
+    @(142.5000 mm, 98.9700 mm): Pad 3 [Net-(U2-OUT)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.5000 mm, 91.9000 mm): Reference field of J1
+    @(172.5000 mm, 92.3000 mm): PTH pad 2 [GND] of J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
