@@ -3635,7 +3635,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -4092,6 +4092,17 @@
 			(uuid "a7357647-ce14-45a1-844a-48496a703b8a")
 		)
 		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/kicad-import.3dshapes/G2RL_1A.step"
+			(offset
+				(xyz -7.5 24 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "kicad-import:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 		(layer "F.Cu")
@@ -4804,6 +4815,17 @@
 			(uuid "2e2ea081-49de-4da8-afe8-96afc059db35")
 		)
 		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/kicad-import.3dshapes/XT60PW-M.step"
+			(offset
+				(xyz 3.5 0.5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "kicad-import:CONN_XT60PW-M_AMA"
 		(layer "F.Cu")
@@ -4860,12 +4882,6 @@
 		(path "/278fa586-448b-4a67-b0e0-4fab1a1c56b9")
 		(sheetname "/")
 		(sheetfile "poachstopper.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5070,6 +5086,17 @@
 			(uuid "1e16c45a-00f0-4c30-8efc-20bc8f67b010")
 		)
 		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/kicad-import.3dshapes/XT60PW-M.step"
+			(offset
+				(xyz 3.5 0.5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "PCM_fab:R_1206"
 		(layer "F.Cu")
